@@ -1,5 +1,7 @@
 import React from 'react';
 import { ListItem,Text,CheckBox,Body,Button,Icon } from 'native-base';
+import { updateTodo } from '../store/reducers/todo_reducers'
+
 
 class ToDoItem extends React.Component{
     render(){
